@@ -1,0 +1,67 @@
+.photo-grid__item {
+  width: 100%;
+  min-height: 213px;
+}
+.photo-grid__item:first-child {
+  background: url(../../../images/photo-grid-train.jpg) top center no-repeat;
+  background-size: cover;
+}
+.photo-grid__item:nth-child(2){
+  background: url(../../../images/photo-grid-atharva-tulsi.jpg) top center no-repeat;
+  background-size: cover;
+}
+.photo-grid__item:nth-child(3){
+  background: url(../../../images/photo-grid-tuman.jpg) top center no-repeat;
+  background-size: cover;
+}
+.photo-grid__item:nth-child(4){
+  background: url(../../../images/photo-grid-sochi.jpg) top center no-repeat;
+  background-size: cover;
+}
+.photo-grid__item:nth-child(5){
+  background: url(../../../images/photo-grid-arisa.jpg) top center no-repeat;
+  background-size: cover;
+}
+.photo-grid__item:nth-child(6){
+  background: url(../../../images/photo-grid-baikal.jpg) top center no-repeat;
+  background-size: cover;
+}
+.photo-grid__item:nth-child(7){
+  background: url(../../../images/photo-grid-elbrus.jpg) top center no-repeat;
+  background-size: cover;
+}
+.photo-grid__item:nth-child(8){
+  background: url(../../../images/photo-grid-kondratiev.jpg) top center no-repeat;
+  background-size: cover;
+}
+.photo-grid__item:nth-child(9){
+  background: url(../../../images/photo-grid-kamchatka-1.jpg) top center no-repeat;
+  background-size: cover;
+}
+.photo-grid__item:nth-child(10){
+  background: url(../../../images/photo-grid-kamchatka-2.jpg) top center no-repeat;
+  background-size: cover;
+}
+.photo-grid__item:nth-child(11){
+  background: url(../../../images/photo-grid-baikal-2.jpg) top center no-repeat;
+  background-size: cover;
+}
+.photo-grid__item:nth-child(12){
+  background: url(../../../images/photo-grid-ergaki.jpg) top center no-repeat;
+  background-size: cover;
+}
+@media screen and (max-width: 1024px) {
+  .photo-grid__item {
+    min-height: 225px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .photo-grid__item {
+    min-height: 264px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .photo-grid__item {
+    min-height: 216px;
+  }
+}
