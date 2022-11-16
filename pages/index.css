@@ -1,5 +1,9 @@
-@import url(../styles/normalize.css);
-@import url(../styles/inter.css);
+@import url(../vendor/normalize.css);
+@import url(../vendor/inter.css);
+
+/* figure */
+
+@import url(../blocks/figure/figure.css);
 
 /* page */
 
@@ -60,5 +64,6 @@
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__item/footer__item.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyryght/footer__copyryght.css);

@@ -1,9 +1,12 @@
 .footer__copyryght {
   font-size: 14px;
   line-height: 16px;
+  margin: 0;
+  align-self: flex-end;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 320px) {
   .footer__copyryght {
     margin: 48px 0 0;
+    align-self: flex-start;
   }
 }
