@@ -8,5 +8,13 @@
   .intro__title {
     font-size: calc(32px + (54 - 32) * (100vw - 320px ) / (768 - 320));
     line-height: calc(35px + (58 - 35) * (100vw - 320px ) / (768 - 320));
+    margin: 88px 0 0;
+  }
+}
+@media screen and (max-width: 320px) {
+  .intro__title {
+    font-size: calc(32px + (54 - 32) * (100vw - 320px ) / (768 - 320));
+    line-height: calc(35px + (58 - 35) * (100vw - 320px ) / (768 - 320));
+    margin: 64px 0 0;
   }
 }

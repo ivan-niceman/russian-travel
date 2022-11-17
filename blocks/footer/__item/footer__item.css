@@ -1,5 +1,5 @@
 .footer__item:not(:last-child) {
-  margin-right: 18px;
+  margin-right: 18px;     /* наставник говорил, что gap во flex плохо может работать в safari */
 }
 @media screen and (max-width: 767px) {
   .footer__item:not(:last-child) {
